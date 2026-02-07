@@ -1,8 +1,16 @@
 [package]
 name = "sway_cycler"
 version = "0.1.0"
-edition = "2021"
+edition = "2025"
+authors = ["santiago leal  ,<santiagojoseleal27@gmail.com>"]
+description = "simple cycle sistem to sway"
+license = "GPL 3.0" 
+repository = "https://github.com/SJLS27/sway_cycler"
+readme = "README.md"
+categories = [
+    "command-line-utilities",
+    "gui"
+]
+keywords = ["sway", "wayland", "workspace", "wm", "i3"]
 
-[dependencies]
-swayipc = "3.0"
-clap = { version = "4.0", features = ["derive"] }
+
