@@ -14,3 +14,6 @@ categories = [
 keywords = ["sway", "wayland", "workspace", "wm", "i3"]
 
 
+[dependencies]
+clap = { version = "4.5", features = ["derive"] }
+swayipc = "3.0"
